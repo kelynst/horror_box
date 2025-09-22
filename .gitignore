@@ -1,0 +1,19 @@
+.venv/
+cat > .gitignore << 'EOF'
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# macOS junk
+.DS_Store
+
+# Logs and outputs
+logs/
+outputs/
